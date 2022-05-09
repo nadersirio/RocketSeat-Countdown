@@ -2,7 +2,7 @@ Neste desafio você deve criar uma página de `coming soon` para o lançamento d
 
 ## Layout
 
-![MacBook Pro 16 inch.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ae14d1c-890d-4c40-8ab1-31369ba44cde/MacBook_Pro_16_inch.png)
+![MacBook Pro 16 inch.png](./images/MacBook_Pro_16_inch.png)
 
 Você pode duplicar o layout do projeto [clicando aqui](https://www.figma.com/file/oDZqw3v8fem3v3RC7bTKV5/DD-%2F-Countdown/duplicate) ou baixar o zip com os assets do projeto.
 
