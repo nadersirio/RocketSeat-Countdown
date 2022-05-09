@@ -48,28 +48,6 @@ Neste desafio você vai construir um **countdown timer**. Caso você ainda não 
 - Adicione um modal que aparece quando o usuário clica no botão "Inscreva-se".
 - No modal adicione um formulário com inputs de nome, e-mail e um botão de envio.
 
-# 🎨 Style Guide
-
----
-
-## **Cores:**
-
-```css
-:root {
-  --black: #4D4C59;
-  --purple: #6C63FF;
-	--light-grey: #C8C8C8;
-  --text-color: #9C9AB6;
-}
-```
-
-## **Tipo de fonte:**
-
-font-family: Poppins 
-
-Font Weight: 300, 400 e 500
-
-Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/) 
 
 # 📅 Entrega
 
