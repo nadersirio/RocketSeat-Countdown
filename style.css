@@ -1,0 +1,128 @@
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+	--light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Poppins";
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/top-image.svg), url(./images/bottom-image.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+  background-position-y: 0%, 100%;
+}
+
+article {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 700px;
+  text-align: center;
+}
+
+h1 {
+  color: var(--purple);
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+}
+
+ul > li {
+  font-weight:100;
+  color: var(--light-grey);
+  font-size: 1rem;
+}
+
+section > p {
+  color: var(--text-color);
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  color: var(--light-grey);
+  background-color: var(--purple);
+  padding: 10px 20px 10px 20px;
+  border-radius: 7px;
+}
+
+.rocket-img {
+  width: 607px;
+  transition: 1s;
+}
+
+
+/*.article_lista {
+  display: flex;
+  justify-content: space-evenly;
+}*/
+
+footer {
+  text-align: center;
+}
+
+@media (min-width: 1360px) {
+  body {
+    background-size: contain;
+  }
+  footer {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 1305px) {
+  .rocket-img {
+    width: 410px;
+  }
+}
+
+@media (max-width: 1110px) {
+  body {
+    justify-content: space-around;
+  }
+  article {
+    flex-direction: column;
+    padding: 30px 10px 1px 10px;
+  }
+  section {
+    width: 500px;
+  }
+  .rocket-img {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  body {
+    align-items: center;
+    height: 100vh;
+  }
+  section {
+    width: initial;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .rocket-img {
+    width: 350px;
+    margin: 50px 10px 50px 10px;
+  }
+}
