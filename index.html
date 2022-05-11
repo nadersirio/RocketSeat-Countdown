@@ -4,11 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link ref="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&family=Poppins:wght@500&family=Rubik:wght@300&display=swap" rel="stylesheet">
   <title>Countdown Page</title>
 </head>
 <body>
-  
+  <article>
+    <section>
+      <h1>READY TO LAUNCH IN...</h1>
+      <!--<ul class="article_lista">
+        <li>Dias</li>
+        <li>Horas</li>
+        <li>Minutos</li>
+        <li>Segundos</li>
+      </ul>-->
+      <div class="timer"></div>
+      <p>Inscreva-se para saber mais sobre o lançamento!</p>
+      <button type="button" class="button" onclick="inscrever()">Inscreva-se</button>
+    </section>
+    <img src="./images/rocket.svg" class="rocket-img" alt="Imagem de foguete no espaço">
+  </article>
+  <footer>
+    Coded By <a href="https://github.com/nadersirio">Náder W. S. Sírio.</a>
+  </footer>
 <script href="./script.js"></script>
 </body>
 </html>
