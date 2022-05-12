@@ -37,7 +37,7 @@ section {
 h1 {
   color: var(--purple);
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: 0.5rem;
 }
 
@@ -50,7 +50,7 @@ ul > li {
 section > p {
   color: var(--text-color);
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin: 10px 10px 10px 10px;
   text-align: center;
 }
@@ -68,11 +68,17 @@ section > p {
   transition: 1s;
 }
 
-
-/*.article_lista {
+.article_lista {
   display: flex;
   justify-content: space-evenly;
-}*/
+  margin-bottom: 15px;
+}
+
+.timer {
+  font-size: 4.5rem;
+  font-weight: 100;
+  color: var(--black);
+}
 
 footer {
   text-align: center;
@@ -99,13 +105,15 @@ footer {
   }
   article {
     flex-direction: column;
-    padding: 30px 10px 1px 10px;
   }
   section {
     width: 500px;
   }
   .rocket-img {
     width: 500px;
+  }
+  .timer {
+    font-size: 3rem;
   }
 }
 
