@@ -11,24 +11,38 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&family=Poppins:wght@500&family=Rubik:wght@300&display=swap" rel="stylesheet">
   <title>Countdown Page</title>
 </head>
-<body onload="contando()">
+<body>
   <article>
     <section>
       <h1>READY TO LAUNCH IN...</h1>
-      <div id="timer">
-        <span id="contador">
-
-        </span>
-        <!-- <ul class="article_lista">
-          <li>Dias</li>
-          <li>Horas</li>
-          <li>Minutos</li>
-          <li>Segundos</li>
+        <ul class="timer">
+          <div>
+            <li class="dates">Anos</li>
+            <li><span id="years">00</span></li>
+          </div>
+          <p class="doublePoint"> : </p>
+          <div>
+            <li class="dates">Dias</li>
+            <li><span id="days">00</span></li>
+          </div>
+          <p class="doublePoint"> : </p>
+          <div>
+            <li class="dates">Horas</li>
+            <li><span id="hours">00</span></li>
+          </div>
+          <p class="doublePoint"> : </p>
+          <div>
+            <li class="dates">Minutos</li>
+            <li><span id="minutes">00</span></li>
+          </div>
+          <p class="doublePoint"> : </p>
+          <div>
+            <li class="dates">Segundos</li>
+            <li><span id="seconds">00</span></li>
+          </div>
         </ul>
-        <p class="timer">00 : 00 : 00 : 00</p> -->
-    </div>
       <p>Inscreva-se para saber mais sobre o lançamento!</p>
-      <button type="button" class="button" onclick="aa()">Inscreva-se</button>
+      <button type="button" class="button" onclick="inscrever()">Inscreva-se</button>
     </section>
     <img src="./images/rocket.svg" class="rocket-img" alt="Imagem de foguete no espaço">
   </article>
