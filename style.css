@@ -135,6 +135,9 @@ footer {
     align-items: center;
     height: 100vh;
   }
+  article {
+    justify-content: space-around;
+  }
   section {
     width: initial;
   }
