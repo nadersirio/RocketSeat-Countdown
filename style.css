@@ -32,20 +32,16 @@ section {
   gap: 30px;
   width: 700px;
   text-align: center;
+  margin: 20px;
 }
 
 h1 {
   color: var(--purple);
-  font-weight: 700;
-  font-size: 2rem;
-  letter-spacing: 0.5rem;
+  font-weight: 900;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
 }
 
-ul > li {
-  font-weight:100;
-  color: var(--light-grey);
-  font-size: 1rem;
-}
 
 section > p {
   color: var(--text-color);
@@ -59,7 +55,7 @@ section > p {
   border: none;
   color: var(--light-grey);
   background-color: var(--purple);
-  padding: 10px 20px 10px 20px;
+  padding: 10px 25px 10px 25px;
   border-radius: 7px;
 }
 
@@ -78,10 +74,25 @@ section > p {
   font-size: 4.5rem;
   font-weight: 100;
   color: var(--black);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.timer .dates {
+  font-size: 0.8rem;
+  color: var(--light-grey);
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+
+.doublePoint {
+  margin-top: 27px;
+  font-size: 2.8rem;
 }
 
 footer {
   text-align: center;
+  font-size: 0.6rem;
 }
 
 @media (min-width: 1360px) {
@@ -108,12 +119,13 @@ footer {
   }
   section {
     width: 500px;
+    margin: initial;
   }
   .rocket-img {
     width: 500px;
   }
   .timer {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -126,8 +138,14 @@ footer {
   section {
     width: initial;
   }
+  section p {
+    font-size: 0.6rem;
+  }
   h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+  }
+  .timer {
+    font-size: 2.8rem;
   }
   .rocket-img {
     width: 350px;
