@@ -77,7 +77,8 @@ const years = days * 365;
 const x = setInterval(function () {
   let now = new Date().getTime();
   const difference = end - now;
-  if (difference < 0) {
+
+  if (now > end) {
     clearInterval(x);
     document.getElementById('timer').innerHTML = "Feliz 80 Anos 🎉🎉🎉";
     return;
