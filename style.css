@@ -22,7 +22,7 @@ article {
   height: 90%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 section {
@@ -32,7 +32,6 @@ section {
   gap: 30px;
   width: 700px;
   text-align: center;
-  margin: 20px;
 }
 
 h1 {
@@ -51,12 +50,22 @@ section > p {
   text-align: center;
 }
 
+.result {
+  font-size: 3rem;
+  color: mediumpurple;
+}
+
+.listaOFF {
+  display: none;
+}
+
 .button {
   border: none;
   color: var(--light-grey);
   background-color: var(--purple);
   padding: 10px 25px 10px 25px;
   border-radius: 7px;
+  margin-bottom: 20px;
 }
 
 .rocket-img {
@@ -70,7 +79,7 @@ section > p {
   margin-bottom: 15px;
 }
 
-.timer {
+.listaON {
   font-size: 4.5rem;
   font-weight: 100;
   color: var(--black);
@@ -78,7 +87,7 @@ section > p {
   justify-content: space-evenly;
 }
 
-.timer .dates {
+.listaON .dates {
   font-size: 0.8rem;
   color: var(--light-grey);
   font-weight: 100;
@@ -87,7 +96,7 @@ section > p {
 
 .doublePoint {
   margin-top: 27px;
-  font-size: 2.8rem;
+  font-size: 4.5rem;
 }
 
 footer {
@@ -124,7 +133,10 @@ footer {
   .rocket-img {
     width: 500px;
   }
-  .timer {
+  .listaON {
+    font-size: 3.5rem;
+  }
+  .doublePoint {
     font-size: 3.5rem;
   }
 }
@@ -147,11 +159,17 @@ footer {
   h1 {
     font-size: 1.7rem;
   }
-  .timer {
+  .listaON {
     font-size: 2.8rem;
+  }
+  .result {
+    font-size: 2rem;
   }
   .rocket-img {
     width: 350px;
     margin: 50px 10px 50px 10px;
+  }
+  .doublePoint {
+    font-size: 2.8rem;
   }
 }
