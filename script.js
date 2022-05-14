@@ -61,7 +61,7 @@
 //}
 //countDownFn();//
 
-const end = new Date('Sep 13, 2082 17:40:00').getTime();
+const end = new Date('Sep 13, 2082 00:00:00').getTime();
 const yearEl = document.getElementById('years');
 const dayEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');
@@ -80,7 +80,10 @@ const x = setInterval(function () {
 
   if (now > end) {
     clearInterval(x);
-    document.getElementById('timer').innerHTML = "Feliz 80 Anos 🎉🎉🎉";
+    document.getElementById('timer').innerHTML = "Viagem para Jupiter, iniciada!! 🚀";
+    lista = document.getElementById("lista");
+    lista.classList.remove("listaON");
+    lista.classList.add("listaOFF");
     return;
   }
   yearEl.innerText = Math.floor(difference / years);
