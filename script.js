@@ -86,7 +86,7 @@ const x = setInterval(function () {
     lista.classList.add("listaOFF");
     return;
   }
-  yearEl.innerText = Math.floor(difference / years);
+  yearEl.innerText = Math.floor(difference / years).addLeadingZeros(difference, 2);
   dayEl.innerText = Math.floor((difference % years) / days);
   hoursEl.innerText = Math.floor((difference % days) / hours);
   minutesEl.innerText = Math.floor((difference % hours) / minutes);
@@ -96,4 +96,8 @@ const x = setInterval(function () {
 
 function inscrever() {
   window.open("https://github.com/nadersirio");
+}
+
+function addLeadingZeros(num, totalLength) {
+  return String(difference).padStart(totalLength, '0');
 }
