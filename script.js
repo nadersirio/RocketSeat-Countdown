@@ -86,11 +86,11 @@ const x = setInterval(function () {
     lista.classList.add("listaOFF");
     return;
   }
-  yearEl.innerText = Math.floor(difference / years).addLeadingZeros(difference, 2);
-  dayEl.innerText = Math.floor((difference % years) / days);
-  hoursEl.innerText = Math.floor((difference % days) / hours);
-  minutesEl.innerText = Math.floor((difference % hours) / minutes);
-  secondsEl.innerText = Math.floor((difference % minutes) / seconds);
+  yearEl.innerText = Math.floor(difference / years).toString().padStart(2, '0');
+  dayEl.innerText = Math.floor((difference % years) / days).toString().padStart(2, '0');
+  hoursEl.innerText = Math.floor((difference % days) / hours).toString().padStart(2, '0');
+  minutesEl.innerText = Math.floor((difference % hours) / minutes).toString().padStart(2, '0');
+  secondsEl.innerText = Math.floor((difference % minutes) / seconds).toString().padStart(2, '0');
 }, seconds);
 
 
